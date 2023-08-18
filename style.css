@@ -3,7 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* треба ще ввести змінні */
+:root{
+    --background-color:#1E252B;
+    --text-inform:#FFFFFF8C;
+    --list-nav:#FFFFFF8C;
+    --input-text-and-icon:#FFFFFF61;
+    --background-color-input:#FFFFFF1A, #FFFFFF00;
+    --list-card-title:#FFFFFFC7;
+    --color-subtitle-card:#FFA5378C;
+    --title-color:#FFFFFFE5;
+    --button-color:#FF6E30;
+    --hover-card:#28303699;
+    --card-hover:#FF6E3099;
+}
 body{
     font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
