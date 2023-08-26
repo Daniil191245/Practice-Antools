@@ -344,3 +344,54 @@ color: var(--name-logotype);
 .list-item-logotype:not(:last-child){
     margin-right: 107px;
 }
+/* styling section newcomer */
+.section-newcomer{
+    padding: 220px 0px;
+}
+.newcomer-information{
+    display: flex;
+}
+.information-newcomer-tools{
+    margin-right: 200px;
+}
+.title-information-newcomer{
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%;
+margin-bottom: 30px;
+color: var(--title-color);
+}
+.text-information-newcomer{
+    width: 425px;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; 
+margin-bottom: 60px;
+color: var(--list-nav);
+}
+.button-explore{
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 16px 40px;
+background: var(--button-color);
+}
+.button-explore>span{
+    color: var(--color);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.list-newcomer-tools{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.icon-zeplin{
+    width: 56px;
+height: 44px;
+}
