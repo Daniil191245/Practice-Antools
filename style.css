@@ -458,6 +458,14 @@ color: var(--list-nav);
     align-items: center;
     justify-content: center;
 }
+.button-chevron{
+    width: 48px;
+height: 48px;
+cursor: pointer;
+}
+.button-left{
+    margin-right: 125px;
+}
 .card{
     position: relative;
     left: 150px;
@@ -488,6 +496,14 @@ font-weight: 400;
 line-height: normal;
 color: var(--text-inform);
 }
+.div-group{
+    display: flex;
+    justify-content: center;
+}
+.group-icon{
+    width: 168px;
+height: 8px;
+}
 .text-information-manager{
 width: 400px;
 font-family: Roboto;
@@ -503,6 +519,9 @@ color: var(--list-card-title);
     background-repeat: no-repeat;
     transform: rotate(19.166deg);
     background-position-y: -30px; */
+}
+.button-right{
+    margin-left: 125px;
 }
 .section-become-contr{
     padding: 240px 0px;
