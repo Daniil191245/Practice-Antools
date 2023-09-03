@@ -42,6 +42,22 @@ ul,ol{
     margin: 0 auto;
     padding: 0 15px;
 }
+/* .swiper{
+    width: 1200px;
+    height: 630px;
+} */
+.swiper-button-prev:hover{
+    color: var(--button-color);
+}
+.swiper-button-prev{
+    color: var(--color);
+}
+.swiper-button-next:hover{
+    color: var(--button-color);
+}
+.swiper-button-next{
+    color: var(--color);
+}
 .header{
     padding-top: 30px;
 }
@@ -458,6 +474,8 @@ color: var(--list-nav);
     justify-content: center;
 }
 .button-chevron{
+    position: absolute;
+    z-index: 100px;
     width: 48px;
 height: 48px;
 cursor: pointer;

@@ -12,6 +12,10 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>Antools</title>
   </head>
@@ -419,37 +423,74 @@
       </section>
       <section>
         <div class="container">
-          <div class="information-manager">
-            <div class="button-left">
-              <svg class="button-chevron">
-                <use href="./symbol-defs.svg#chevron-left"></use>
-              </svg>
-            </div>
-            <div>
-              <img src="./img-antools/img-ronald.png" alt="" />
-              <div class="card">
-                <h3 class="name-manager">Ronald Richards</h3>
-                <p class="position">Product Manager</p>
+          <!-- Slider main container -->
+          <div class="swiper container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="information-manager">
+                  <div>
+                    <img src="./img-antools/img-ronald.png" alt="" />
+                    <div class="card">
+                      <h3 class="name-manager">Ronald Richards</h3>
+                      <p class="position">Product Manager</p>
+                    </div>
+                  </div>
+                  <p class="text-information-manager">
+                    Incididunt cillum do sint sint enim ullamco id deserunt
+                    mollit qui reprehenderit do. Velit ex tempor cillum ad sint
+                    occaecat. Do nulla velit labore occaecat do deserunt Lorem
+                    magna officia incididunt consectetur amet. Sunt consectetur
+                    veniam minim ex commodo sint non. Occaecat aute officia
+                    excepteur non laboris id qui ad.
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="information-manager">
+                  <div>
+                    <img src="./img-antools/img-ronald.png" alt="" />
+                    <div class="card">
+                      <h3 class="name-manager">Ronald Richards</h3>
+                      <p class="position">Product Manager</p>
+                    </div>
+                  </div>
+                  <p class="text-information-manager">
+                    Incididunt cillum do sint sint enim ullamco id deserunt
+                    mollit qui reprehenderit do. Velit ex tempor cillum ad sint
+                    occaecat. Do nulla velit labore occaecat do deserunt Lorem
+                    magna officia incididunt consectetur amet. Sunt consectetur
+                    veniam minim ex commodo sint non. Occaecat aute officia
+                    excepteur non laboris id qui ad.
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="information-manager">
+                  <div>
+                    <img src="./img-antools/img-ronald.png" alt="" />
+                    <div class="card">
+                      <h3 class="name-manager">Ronald Richards</h3>
+                      <p class="position">Product Manager</p>
+                    </div>
+                  </div>
+                  <p class="text-information-manager">
+                    Incididunt cillum do sint sint enim ullamco id deserunt
+                    mollit qui reprehenderit do. Velit ex tempor cillum ad sint
+                    occaecat. Do nulla velit labore occaecat do deserunt Lorem
+                    magna officia incididunt consectetur amet. Sunt consectetur
+                    veniam minim ex commodo sint non. Occaecat aute officia
+                    excepteur non laboris id qui ad.
+                  </p>
+                </div>
               </div>
             </div>
-            <p class="text-information-manager">
-              Incididunt cillum do sint sint enim ullamco id deserunt mollit qui
-              reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do
-              nulla velit labore occaecat do deserunt Lorem magna officia
-              incididunt consectetur amet. Sunt consectetur veniam minim ex
-              commodo sint non. Occaecat aute officia excepteur non laboris id
-              qui ad.
-            </p>
-            <div class="button-right">
-              <svg class="button-chevron">
-                <use href="./symbol-defs.svg#chevron-right"></use>
-              </svg>
-            </div>
-          </div>
-          <div class="div-group">
-            <svg class="group-icon">
-              <use href="./symbol-defs.svg#group"></use>
-            </svg>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
           </div>
         </div>
       </section>
@@ -527,5 +568,7 @@
         </ul>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./slider.js" type="module"></script>
   </body>
 </html>
