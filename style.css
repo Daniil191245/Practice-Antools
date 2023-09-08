@@ -58,6 +58,12 @@ ul,ol{
 .swiper-button-next{
     color: var(--color);
 }
+.swiper-pagination-bullet-active{
+    background-color: orangered;
+
+}
+/* .swiper-pagination{
+} */
 .header{
     padding-top: 30px;
 }
@@ -242,14 +248,6 @@ padding: 35px;
 background: var(--hover-card);
 backdrop-filter: blur(25px);
 transform: translateY(-10%);
-}
-.list-item-tools:hover .icon-like{
-    width: 32px;
-    height: 32px;
-    border-radius: 8px;
-    fill: #FD3B41; 
-background: var(--background-color-input);
-box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
 }
 .list-item-tools:hover .button-visit{
     border-radius: 8px;
