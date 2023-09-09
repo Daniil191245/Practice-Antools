@@ -60,10 +60,15 @@ ul,ol{
 }
 .swiper-pagination-bullet-active{
     background-color: orangered;
-
 }
-/* .swiper-pagination{
-} */
+.swiper-pagination-bullet{
+    width: 45px;
+height: 8px;
+border-radius: 5px;
+}
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet:not(:last-child) {
+    margin: 0 10px;
+}
 .header{
     padding-top: 30px;
 }
