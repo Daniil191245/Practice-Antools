@@ -106,5 +106,9 @@
 <path fill="#283036" style="fill: var(--color2, #283036)" d="M508 4h152c6.627 0 12 5.373 12 12s-5.373 12-12 12h-152c-6.627 0-12-5.373-12-12s5.373-12 12-12z"></path>
 <path fill="#283036" style="fill: var(--color2, #283036)" d="M12 4h152c6.627 0 12 5.373 12 12s-5.373 12-12 12h-152c-6.627 0-12-5.373-12-12s5.373-12 12-12z"></path>
 </symbol>
+<symbol id="search" viewBox="0 0 33 32">
+<path fill="none" stroke="#fff" style="stroke: #ffffff61" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M14.667 25.333c5.891 0 10.667-4.776 10.667-10.667s-4.776-10.667-10.667-10.667c-5.891 0-10.667 4.776-10.667 10.667s4.776 10.667 10.667 10.667z"></path>
+<path fill="none" stroke="#fff" style="stroke: #ffffff61" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M28 28l-5.8-5.8"></path>
+</symbol>
 </defs>
 </svg>

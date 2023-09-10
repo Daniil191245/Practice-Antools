@@ -24,7 +24,6 @@
     --color-dec-element:#ffffff26;
     --name-manager:#fffdfdc7;
     --card-logotype:#2c353d33;
-
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -164,8 +163,16 @@ margin-bottom: 90px;
 color: var(--list-nav);
 }
 .inform-input{
+    position: relative;
     display: flex;
     margin-bottom: 140px;
+}
+.input-search{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 18px;
+    top: 19px;
 }
 .input-hero{
     width: 497px;
