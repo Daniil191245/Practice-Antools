@@ -26,10 +26,13 @@
     --card-logotype:#2c353d33;
     --hover-color-like-icon:red;
     --color-button-swiper:orangered;
+    --background-color-menu:gray;
+    --dropdown-item-color:black;
 }
 body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
     background-color: var(--background-color);
 }
 a{
@@ -49,6 +52,7 @@ ul,ol{
 .header-inform{
     display: flex;
     align-items: center;
+    max-width: 1320px;
 }
 .logo-header{
     width: 19px;
@@ -69,6 +73,8 @@ color: var(--color-footer-list);
 }
 .list-navigation{
     display: flex;
+    align-items: center;
+    margin-top: 20px;
 }
 .list-navigation>li:not(:last-child){
     margin-right: 50px;
@@ -83,6 +89,48 @@ color: var(--list-nav);
 }
 .item-navigation:hover{
     color: var(--list-nav);
+}
+ol, ul {
+    padding-left: 0;
+}
+.button-categories{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    color: var(--list-nav);
+    background-color: var(--background-color);
+}
+.button-categories:hover{
+    color: var(--list-nav);
+    background-color: var(--background-color);
+}
+.dropdown-menu{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: var(--background-color);
+}
+.dropdown-item{
+    color: var(--list-nav);
+    background-color: var(--background-color);
+}
+.dropdown-item:hover{
+    color: var(--dropdown-item-color);
+    background-color: var(--background-color-menu);
+}
+.dropdown-item:active{
+    color: var(--list-nav);
+    background-color: var(--background-color);
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: var(--list-nav);
+    background-color: var(--background-color);
+    border: none;
 }
 .login{
 font-family: Poppins;
@@ -173,7 +221,7 @@ color: var(--text-input);
 }
 .button-search{
     width: 130px;
-height: 48px;
+    height: 48px;
     position: relative;
     top: 8px;
     right: 145px;
@@ -237,13 +285,17 @@ color: var(--text-inform);
 padding: 35px;
 }
 .list-item-visual{
-padding-right: 0;
+    padding-right: 0;
 }
 .list-item-tools:hover{
     border-radius: 15px;
 background: var(--hover-card);
 backdrop-filter: blur(25px);
 transform: translateY(-10%);
+
+background-image: url(./img-antools/ellipse-cardtools.png);
+background-repeat: no-repeat;
+background-position: top -1px right -20px;
 }
 .list-item-tools:hover .button-visit{
     border-radius: 8px;
@@ -369,6 +421,10 @@ color: var(--name-logotype);
     background:  var(--card-logotype);
     backdrop-filter: blur(25px);
     padding: 57px 0px;
+
+    background-image: url(./img-antools/elipse-logotype.png);
+    background-repeat: no-repeat;
+    /* background-position: top 1px left -180px ; */
 }
 .list-logotype{
     display: flex;
@@ -435,6 +491,10 @@ background: var(--hover-card);
 backdrop-filter: blur(25px);
 transform: translateY(-8%);
 padding: 29px 21px 28px 30px;
+
+background-image: url(./img-antools/ellipse-cardnew.png);
+background-repeat: no-repeat;
+background-position: top 1px right -15px;
 }
 .list-item-new-tools:hover .button-visit{
     border-radius: 8px;
@@ -546,6 +606,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin: 0;
 color: var(--text-inform);
 }
 .text-information-manager::before{
