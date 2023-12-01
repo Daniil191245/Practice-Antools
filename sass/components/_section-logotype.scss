@@ -1,0 +1,27 @@
+.name-card{
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 58px;
+    color: var(--name-logotype);
+    }
+    .card-logotype{
+        border-radius: 25px;
+        background:  var(--card-logotype);
+        backdrop-filter: blur(25px);
+        padding: 57px 0px;
+    
+        background-image: url(./img-antools/elipse-logotype.png);
+        background-repeat: no-repeat;
+    }
+    .list-logotype{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .list-item-logotype:not(:last-child){
+        margin-right: 107px;
+    }

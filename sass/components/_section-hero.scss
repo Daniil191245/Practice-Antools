@@ -1,0 +1,89 @@
+.section-hero{
+    padding: 120px 0 200px;
+}
+.hero{
+    display: flex;
+}
+.information-hero{
+    margin-right: 140px;
+}
+.title-hero{
+width: 600px;
+font-family: Poppins;
+font-size: 50px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%;
+margin-bottom: 30px;
+color: var(--title-color); 
+}
+.title-hero>span{
+    color: var(--button-color);
+}
+.text-hero{
+width: 490px;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+margin-bottom: 90px;
+color: var(--list-nav);
+}
+.inform-input{
+    position: relative;
+    display: flex;
+    margin-bottom: 140px;
+}
+.input-search{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 18px;
+    top: 19px;
+}
+.input-hero{
+    width: 497px;
+height: 64px;
+border-radius: 15px;
+outline: none;
+background: var(--background-color-input);
+}
+[placeholder="find more than 430+ tools..."]{
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+padding-left: 50px;
+line-height: normal;
+color: var(--text-input);
+}
+.button-search{
+    width: 130px;
+    height: 48px;
+    position: relative;
+    top: 8px;
+    right: 145px;
+    border-radius: 8px;
+    cursor: pointer;
+background:var(--button-color);
+}
+.button-search>span{
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+color: var(--color);
+}
+.list-network{
+    display: flex;
+}
+.item-network:not(:last-child){
+    margin-right: 31px;
+}
+.network{
+    width: 34px;
+height: 34px;
+cursor: pointer;
+}

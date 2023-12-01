@@ -1,0 +1,112 @@
+.header{
+    padding-top: 30px;
+}
+.header-inform{
+    display: flex;
+    align-items: center;
+    max-width: 1320px;
+}
+.logo-header{
+    width: 19px;
+height: 20px;
+margin-right: 21px;
+}
+.logotype{
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-right: 260px;
+color: var(--color-footer-list);
+}
+.navigation{
+    margin-right: 193px;
+}
+.list-navigation{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.list-navigation>li:not(:last-child){
+    margin-right: 50px;
+}
+.item-navigation{
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+color: var(--list-nav);
+}
+.item-navigation:hover{
+    color: var(--list-nav);
+}
+ol, ul {
+    padding-left: 0;
+}
+.button-categories{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    color: var(--list-nav);
+    background-color: var(--background-color);
+}
+.button-categories:hover{
+    color: var(--list-nav);
+    background-color: var(--background-color);
+}
+.dropdown-menu{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: var(--background-color);
+}
+.dropdown-item{
+    color: var(--list-nav);
+    background-color: var(--background-color);
+}
+.dropdown-item:hover{
+    color: var(--dropdown-item-color);
+    background-color: var(--background-color-menu);
+}
+.dropdown-item:active{
+    color: var(--list-nav);
+    background-color: var(--background-color);
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: var(--list-nav);
+    background-color: var(--background-color);
+    border: none;
+}
+.login{
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-right: 41px;
+color: var(--list-card-title);
+}
+.login:hover{
+    color: var(--list-nav);
+}
+.button-sign{
+    padding: 12px 28px;
+    border-radius: 8px;
+    cursor: pointer;
+background: var(--button-color);
+}
+.button-sign>span{
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+color: var(--color-text-button);
+}

@@ -1,0 +1,59 @@
+.section-become-contr{
+    padding: 240px 0px;
+}
+.container-form{
+    text-align: center;
+}
+.title-contributor{
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%;
+text-align: center;
+margin-bottom: 25px;
+color: var(--title-color);
+}
+.text-information{
+    width: 427px;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; 
+text-align: center;
+margin: 0 auto;
+margin-bottom: 100px;
+color: var(--list-nav);
+}
+.input-email{
+    border-radius: 15px;
+    outline: none;
+    margin-left: 150px;
+background: var(--background-color-input);
+}
+[placeholder="Enter your email..."]{
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 22px 360px 22px 24px;
+color: var(--text-input);
+}
+.button-join{
+    position: relative;
+    right: 11.5%;
+    border-radius: 8px;
+    padding: 12px 35px;
+    cursor: pointer;
+    background-color: var(--button-color);
+}
+.button-join>span{
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+color: var(--color);
+}

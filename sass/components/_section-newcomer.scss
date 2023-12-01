@@ -1,0 +1,109 @@
+.section-newcomer{
+    padding: 220px 0px;
+}
+.newcomer-information{
+    display: flex;
+}
+.information-newcomer-tools{
+    margin-right: 200px;
+}
+.title-information-newcomer{
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%;
+margin-bottom: 30px;
+color: var(--title-color);
+}
+.text-information-newcomer{
+    width: 425px;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; 
+margin-bottom: 60px;
+color: var(--list-nav);
+}
+.button-explore{
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 16px 40px;
+background: var(--button-color);
+}
+.button-explore>span{
+    color: var(--color);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.list-newcomer-tools{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px 24px;
+}
+.list-item-new-tools{
+    padding: 30px 50px 32px 23px;
+}
+.list-item-new-tools:hover{
+    border-radius: 15px;
+background: var(--hover-card);
+backdrop-filter: blur(25px);
+transform: translateY(-8%);
+padding: 29px 21px 28px 30px;
+
+background-image: url(./img-antools/ellipse-cardnew.png);
+background-repeat: no-repeat;
+background-position: top 1px right -15px;
+}
+.list-item-new-tools:hover .button-visit{
+    border-radius: 8px;
+    padding: 9px 35px;
+background: var(--button-color);
+color: var(--color);
+
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.list-item-new-tools:hover .icon{
+    cursor: pointer;
+    color: var(--color);
+}
+.newcomer-card{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.icon-newcomer{
+width: 64px;
+height: 64px;
+margin-right: 34px;
+}
+.name{
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 3px;
+color: var(--list-card-title);
+}
+.text-newcomer{
+width: 245px;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+margin-bottom: 38px;
+color: var(--list-nav);
+}
+.card-tools{
+    margin-right: 84px;
+}

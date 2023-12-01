@@ -1,0 +1,100 @@
+.information-manager{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper-button-prev:hover{
+    color: var(--button-color);
+}
+.swiper-button-prev:active{
+    color: var(--button-color);
+}
+.swiper-button-prev{
+    color: var(--color);
+}
+.swiper-button-next:hover{
+    color: var(--button-color);
+}
+.swiper-button-next:active{
+    color: var(--button-color);
+}
+.swiper-button-next{
+    color: var(--color);
+}
+.swiper-pagination-bullet-active{
+    background-color: var(--color-button-swiper);
+}
+.swiper-pagination-bullet{
+    width: 45px;
+height: 8px;
+border-radius: 5px;
+}
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet:not(:last-child) {
+    margin: 0 10px;
+}
+.card{
+    position: relative;
+    left: 150px;
+    bottom: 125px;
+
+    width: 275px;
+    padding: 10px 23px 16px;
+    border-radius: 8px;
+border: 1px solid rgba(255, 255, 255, 0.10);
+background: var(--card-logotype);
+backdrop-filter: blur(25px);
+}
+.name-manager{
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.39px;
+    margin-bottom: 3px;
+    color: var(--name-manager);
+}
+.position{
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0;
+color: var(--text-inform);
+}
+.text-information-manager::before{
+    content: "";
+    display: block;
+    width: 200px;
+    height: 95px;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    background-repeat: no-repeat;
+    background-image: url(./img-antools/comma.png);
+}
+.text-information-manager{
+    position: relative;
+width: 400px;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+letter-spacing: 0.21px;
+margin-left: 65px;
+padding-bottom: 120px;
+color: var(--list-card-title);
+}
+.button-right{
+    margin-left: 125px;
+}
+.div-group{
+    display: flex;
+    justify-content: center;
+}
+.group-icon{
+    width: 168px;
+height: 8px;
+}
